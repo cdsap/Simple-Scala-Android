@@ -9,7 +9,7 @@ import android.view.View
 import android.widget.{Button, TextView}
 
 
-class MainActivityScala extends AppCompatActivity with MenuWithTraits {
+class MainActivityScala extends AppCompatActivity with SimpleExampleTrait {
   override def onCreate(savedInstanceState: Bundle) {
     super.onCreate(savedInstanceState)
 
